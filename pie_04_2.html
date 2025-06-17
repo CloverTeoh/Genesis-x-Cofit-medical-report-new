@@ -1,0 +1,110 @@
+<!-- PieChart generated in R 4.4.1 by googleVis 0.7.3 package -->
+<!-- Thu May 22 13:42:18 2025 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataPieChartID986763d685e () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Normal",
+812
+],
+[
+"Overweight",
+1083
+],
+[
+"Mild obesity",
+960
+],
+[
+"Moderate obesity",
+918
+],
+[
+"Morbid obesity",
+373
+] 
+];
+data.addColumn('string','bmi_gp_2');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartPieChartID986763d685e() {
+var data = gvisDataPieChartID986763d685e();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Female (N = 4146)";
+options["legend"] = {position:'right'};
+options["pieHole"] = 0.5;
+options["backgroundColor"] = "#f9fffb";
+options["width"] = "500";
+options["height"] = "400";
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID986763d685e')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID986763d685e);
+})();
+function displayChartPieChartID986763d685e() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID986763d685e"></script>
+ 
+<!-- divChart -->
+  
+<div id="PieChartID986763d685e" 
+  style="width: 500; height: 400;">
+</div>

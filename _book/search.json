@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cofit x Genesis 醫療大數據（分析報告）",
+    "section": "",
+    "text": "本報告主要分析初日診所客戶的減重成效。"
+  },
+  {
+    "objectID": "1.1 疾病診斷標準.html#肥胖標準-obesity",
+    "href": "1.1 疾病診斷標準.html#肥胖標準-obesity",
+    "title": "1.1 疾病診斷標準",
+    "section": "1. 肥胖標準 (Obesity)",
+    "text": "1. 肥胖標準 (Obesity)\n\nBMI 定義\n資料來源： 衛福部 和 台灣癌症基金會\n\n\n\n\n\n\n\n體態\nBMI\n\n\n\n\n過輕 (Underweight)\n&lt;18.5\n\n\n正常 (Normal)\n18.5 ≦ BMI ＜ 24.0\n\n\n過重 (Overweight)\n24.0 ≦ BMI ＜ 27.0\n\n\n輕度肥胖 (Mild Obesity)\n27 ≦ BMI ＜ 30\n\n\n中度肥胖 (Moderate Obesity)\n30 ≦ BMI ＜ 35\n\n\n重度肥胖 (Severe Obesity)\nBMI ≧ 35"
+  },
+  {
+    "objectID": "1.1 疾病診斷標準.html#代謝症候群標準-metabolic-syndrome",
+    "href": "1.1 疾病診斷標準.html#代謝症候群標準-metabolic-syndrome",
+    "title": "1.1 疾病診斷標準",
+    "section": "2. 代謝症候群標準 (Metabolic Syndrome)",
+    "text": "2. 代謝症候群標準 (Metabolic Syndrome)\n資料來源： JAMA (2001) 和 亞太共識聲明 (2008)\n根據 2005 年 NCEP-ATP III 標準，符合下列五項中三項以上即可診斷為代謝症候群：\n（註：如以下判斷指標缺少任一項，其他符合項目未達三項，則判定為無法判斷）\n\n\n\n\n\n\n\n危險因子\n診斷標準\n\n\n\n\n腹部肥胖\n男性 ≥90 cm\n女性 ≥80 cm\n\n\n三酸甘油脂 (TG)\n≥150 mg/dL\n\n\n高密度脂蛋白 (HDL)\n男性 &lt;40 mg/dL\n女性 &lt;50 mg/dL\n\n\n血壓 (BP)\n≥130/85 mmHg\n\n\n空腹血糖 (FBG)\n≥100 mg/dL"
+  },
+  {
+    "objectID": "1.1 疾病診斷標準.html#糖尿病與糖尿病前期-diabetes-prediabetes",
+    "href": "1.1 疾病診斷標準.html#糖尿病與糖尿病前期-diabetes-prediabetes",
+    "title": "1.1 疾病診斷標準",
+    "section": "3. 糖尿病與糖尿病前期 (Diabetes / Prediabetes)",
+    "text": "3. 糖尿病與糖尿病前期 (Diabetes / Prediabetes)\n資料來源：衛福部 和 ADA Guideline\n\n3.1 糖尿病前期 (Prediabetes)\n符合下列任一項即可：\n\n\n\n\n\n\n\n檢測項目\n判定值\n\n\n\n\nHbA1c\n5.7–6.4%\n\n\n空腹血糖 (FPG)\n100–125 mg/dL\n\n\n口服葡萄糖耐受試驗 (OGTT)\n140–199 mg/dL\n\n\n\n\n\n3.2 第二型糖尿病 (Type 2 Diabetes)\n符合下列任一項即可診斷為糖尿病：\n\n\n\n\n\n\n\n檢測項目\n判定值\n\n\n\n\nHbA1c\n≥6.5%\n\n\n空腹血糖 (FPG)\n≥126 mg/dL\n\n\n隨機血糖 (RPG)\n≥200 mg/dL\n\n\nOGTT (2 小時)\n≥200 mg/dL"
+  },
+  {
+    "objectID": "1.1 疾病診斷標準.html#高血壓-hypertension",
+    "href": "1.1 疾病診斷標準.html#高血壓-hypertension",
+    "title": "1.1 疾病診斷標準",
+    "section": "4. 高血壓 (Hypertension)",
+    "text": "4. 高血壓 (Hypertension)\n資料來源：AHA Guideline\nSBP 或 DBP 只要符合一項即可歸類為相對應分類：\n\n\n\n\n\n\n\n\n分類\n收縮壓 (SBP)\n舒張壓 (DBP)\n\n\n\n\n血壓偏高\n120–129 mm Hg\n&lt;80 mm Hg\n\n\n高血壓第 1 期\n130–139 mm Hg\n80–89 mm Hg\n\n\n高血壓第 2 期\n≥140 mm Hg\n≥90 mm Hg"
+  },
+  {
+    "objectID": "1.1 疾病診斷標準.html#高血脂-hyperlipidemia",
+    "href": "1.1 疾病診斷標準.html#高血脂-hyperlipidemia",
+    "title": "1.1 疾病診斷標準",
+    "section": "5. 高血脂 (Hyperlipidemia)",
+    "text": "5. 高血脂 (Hyperlipidemia)\n資料來源：衛福部高血脂防治手冊"
+  },
+  {
+    "objectID": "1.1 疾病診斷標準.html#血脂異常判定標準",
+    "href": "1.1 疾病診斷標準.html#血脂異常判定標準",
+    "title": "1.1 疾病診斷標準",
+    "section": "血脂異常判定標準",
+    "text": "血脂異常判定標準\n\n\n\n\n\n\n\n指標\n判定值\n\n\n\n\n總膽固醇 (Total Chol.)\n≥200 mg/dL |\n\n\n低密度脂蛋白 (LDL)\n≥130 mg/dL |\n\n\n高密度脂蛋白 (HDL)\n男性 &lt;40 mg/dL | 女性 &lt;50 mg/dL |\n\n\n三酸甘油脂 (TG)\n≥150 mg/dL |"
+  },
+  {
+    "objectID": "1.2 客戶輪廓分析.html#subjects-distribution-年齡age-性別gender分佈",
+    "href": "1.2 客戶輪廓分析.html#subjects-distribution-年齡age-性別gender分佈",
+    "title": "1.2 客戶輪廓分析",
+    "section": "Subjects Distribution: 年齡(Age) & 性別(Gender)分佈",
+    "text": "Subjects Distribution: 年齡(Age) & 性別(Gender)分佈"
+  },
+  {
+    "objectID": "1.2 客戶輪廓分析.html#subjects-distribution-身體質量指數bmi分佈",
+    "href": "1.2 客戶輪廓分析.html#subjects-distribution-身體質量指數bmi分佈",
+    "title": "1.2 客戶輪廓分析",
+    "section": "Subjects Distribution: 身體質量指數(BMI)分佈 ",
+    "text": "Subjects Distribution: 身體質量指數(BMI)分佈"
+  },
+  {
+    "objectID": "1.2 客戶輪廓分析.html#subjects-distribution-肥胖相關慢性共病",
+    "href": "1.2 客戶輪廓分析.html#subjects-distribution-肥胖相關慢性共病",
+    "title": "1.2 客戶輪廓分析",
+    "section": "Subjects Distribution: 肥胖相關慢性共病 ",
+    "text": "Subjects Distribution: 肥胖相關慢性共病"
+  },
+  {
+    "objectID": "1.2_1 客戶輪廓分析.html#subjects-distribution-年齡age-性別gender分佈",
+    "href": "1.2_1 客戶輪廓分析.html#subjects-distribution-年齡age-性別gender分佈",
+    "title": "1.2-1 客戶輪廓分析（過重及肥胖）",
+    "section": "Subjects Distribution: 年齡(Age) & 性別(Gender)分佈",
+    "text": "Subjects Distribution: 年齡(Age) & 性別(Gender)分佈"
+  },
+  {
+    "objectID": "1.2_1 客戶輪廓分析.html#subjects-distribution-身體質量指數bmi分佈",
+    "href": "1.2_1 客戶輪廓分析.html#subjects-distribution-身體質量指數bmi分佈",
+    "title": "1.2-1 客戶輪廓分析（過重及肥胖）",
+    "section": "Subjects Distribution: 身體質量指數(BMI)分佈 ",
+    "text": "Subjects Distribution: 身體質量指數(BMI)分佈"
+  },
+  {
+    "objectID": "1.2_1 客戶輪廓分析.html#subjects-distribution-肥胖相關慢性共病",
+    "href": "1.2_1 客戶輪廓分析.html#subjects-distribution-肥胖相關慢性共病",
+    "title": "1.2-1 客戶輪廓分析（過重及肥胖）",
+    "section": "Subjects Distribution: 肥胖相關慢性共病 ",
+    "text": "Subjects Distribution: 肥胖相關慢性共病"
+  },
+  {
+    "objectID": "1.3 整體成效分析.html#控糖減重成效",
+    "href": "1.3 整體成效分析.html#控糖減重成效",
+    "title": "1.3 整體成效分析",
+    "section": "控糖減重成效",
+    "text": "控糖減重成效\n根據美國糖尿病協會（ADA）於「糖尿病照護標準-2025」中的建議，適度的體重減輕（起始體重的3-7%）能改善血糖、血壓和血脂，降低進展為第二型糖尿病的風險；若能持續減重超過10%，通常會帶來更大的健康效益。 \n資料來源：8. Obesity and Weight Management for the Prevention and Treatment of Type 2 Diabetes: Standards of Care in Diabetes–2025 \n此外，美國心臟病學會 (ACC)/美國心臟協會 (AHA)/肥胖學會 (TOS) 的指南指出，所有過重或肥胖者應將在六個月內達成5-10%的體重減輕，作為一個現實且有臨床意義的目標。 \n美國內分泌醫學會（ACE）/美國臨床內分泌學家組織（AACE）的指南則建議，過重或肥胖者應在一個月內達成2.5%體重減輕，作為減重的目標。\n資料來源：A Review of Current Guidelines for the Treatment of Obesity\n\n\n分析結果：\n診所客戶一次減重療程為期2個月，結合以上指南的建議，將5%的體重減輕定為目標是合理且具有臨床健康效益的。本次分析只納入具有前測和後測體重的客戶（N = 1808）。\n\n體重下降比例的圖顯示：\n\n\n在女性客戶中，有60%的人體重減輕≥5%，其中7.6%的人體重減輕&gt;10%;；\n在男性客戶中，有55.8%的人體重減輕≥5%，其中10.6%的人體重減輕&gt;10%；\n\n\n脂肪與肌肉在體重下降中的平均比例的圖顯示：\n無論性別或體重減輕幅度，脂肪平均佔體重減少的60%以上，為主要的體重下降組成成分。\n各組的平均體重、肌肉和脂肪變化這三個圖顯示：\n肌肉和脂肪的變化和體重下降比例呈正比，也就是說體重下降越多，肌肉和脂肪下降越多。\n\n\n\n\n\n\n脂肪與肌肉在體重下降中的平均比例圖只納入體重下降的人（N = 1315）"
+  },
+  {
+    "objectID": "1.3 整體成效分析.html#體組成與血液生化值的平均變化",
+    "href": "1.3 整體成效分析.html#體組成與血液生化值的平均變化",
+    "title": "1.3 整體成效分析",
+    "section": "體組成與血液生化值的平均變化",
+    "text": "體組成與血液生化值的平均變化\n下圖顯示療程前後的體組成和血液的平均變化，y軸表示前測或後測的平均值。\n\n體組成相關的指標都呈現下降的趨勢，值得關注的是，體脂重和內臟脂肪分別下降了11.01%和12.1%。\n血液生化值方面：\n\n\n血糖相關的數值皆有改善，胰島素阻抗也有改善。\n血脂相關的數值，三酸甘油脂呈現下降的趨勢，但是總膽固醇和低密度脂蛋白呈現上升的趨勢，且高密度脂蛋白呈現下降的趨勢。\n澱粉酶和解脂酶皆呈現上升趨勢。"
+  }
+]

@@ -1,0 +1,134 @@
+<!-- PieChart generated in R 4.4.1 by googleVis 0.7.3 package -->
+<!-- Thu May 22 13:42:17 2025 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataPieChartID9867301e47a () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"<25",
+321
+],
+[
+"25-29",
+500
+],
+[
+"30-34",
+1047
+],
+[
+"35-39",
+1143
+],
+[
+"40-44",
+1061
+],
+[
+"45-49",
+757
+],
+[
+"50-54",
+645
+],
+[
+"55-59",
+381
+],
+[
+"60-64",
+185
+],
+[
+"65-69",
+116
+],
+[
+">70",
+91
+] 
+];
+data.addColumn('string','age_gp');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartPieChartID9867301e47a() {
+var data = gvisDataPieChartID9867301e47a();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Age (N = 6247)";
+options["legend"] = {position:'right'};
+options["pieHole"] = 0.5;
+options["backgroundColor"] = "#f9fffb";
+options["width"] = "500";
+options["height"] = "400";
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID9867301e47a')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID9867301e47a);
+})();
+function displayChartPieChartID9867301e47a() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID9867301e47a"></script>
+ 
+<!-- divChart -->
+  
+<div id="PieChartID9867301e47a" 
+  style="width: 500; height: 400;">
+</div>

@@ -1,0 +1,437 @@
+<!-- PieChart generated in R 4.4.1 by googleVis 0.7.3 package -->
+<!-- Wed May 21 14:38:53 2025 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataPieChartID9867c80ba26 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"DM",
+581
+],
+[
+"Normal",
+3384
+],
+[
+"Pre-DM",
+1398
+] 
+];
+data.addColumn('string','DM_base');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataPieChartID986734855d80 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Pattern I",
+360
+],
+[
+"Pattern II",
+1414
+],
+[
+"Pattern III",
+1209
+],
+[
+"Pattern IV",
+348
+],
+[
+"Pattern V",
+104
+] 
+];
+data.addColumn('string','summary_pattern_base_v1');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataPieChartID98671e5eef64 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Elevated",
+658
+],
+[
+"HTN (Stage 1)",
+887
+],
+[
+"HTN (Stage 2)",
+769
+],
+[
+"Normal",
+1906
+] 
+];
+data.addColumn('string','htn_base');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataPieChartID98673ba847d7 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"HLP",
+3979
+],
+[
+"Normal",
+1382
+] 
+];
+data.addColumn('string','HLP_base');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartPieChartID9867c80ba26() {
+var data = gvisDataPieChartID9867c80ba26();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Diabetes (N = 5363)";
+options["legend"] = {position:'right'};
+options["pieHole"] = 0.5;
+options["backgroundColor"] = "#f9fffb";
+options["width"] = "600";
+options["height"] = "400";
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID9867c80ba26')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartPieChartID986734855d80() {
+var data = gvisDataPieChartID986734855d80();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Insulin Response Pattern (N = 3435)";
+options["legend"] = {position:'right'};
+options["pieHole"] = 0.5;
+options["colors"] = ['#628bd6','#f8e05c','#ffc081','#ff834a','#ff5959'];
+options["backgroundColor"] = "#f9fffb";
+options["width"] = "600";
+options["height"] = "400";
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID986734855d80')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartPieChartID98671e5eef64() {
+var data = gvisDataPieChartID98671e5eef64();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Hypertension (N = 4220)";
+options["legend"] = {position:'right'};
+options["pieHole"] = 0.5;
+options["backgroundColor"] = "#f9fffb";
+options["width"] = "600";
+options["height"] = "400";
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID98671e5eef64')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartPieChartID98673ba847d7() {
+var data = gvisDataPieChartID98673ba847d7();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Hyperlipidemia (N = 5361)";
+options["legend"] = {position:'right'};
+options["pieHole"] = 0.5;
+options["backgroundColor"] = "#f9fffb";
+options["width"] = "600";
+options["height"] = "400";
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID98673ba847d7')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID9867c80ba26);
+})();
+function displayChartPieChartID9867c80ba26() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID986734855d80);
+})();
+function displayChartPieChartID986734855d80() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID98671e5eef64);
+})();
+function displayChartPieChartID98671e5eef64() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID98673ba847d7);
+})();
+function displayChartPieChartID98673ba847d7() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID9867c80ba26"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID986734855d80"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID98671e5eef64"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID98673ba847d7"></script>
+ 
+<table cellspacing="5" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<table border="0">
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="PieChartID9867c80ba26" 
+  style="width: 600; height: 400;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="PieChartID986734855d80" 
+  style="width: 600; height: 400;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<table border="0">
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="PieChartID98671e5eef64" 
+  style="width: 600; height: 400;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="PieChartID98673ba847d7" 
+  style="width: 600; height: 400;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
