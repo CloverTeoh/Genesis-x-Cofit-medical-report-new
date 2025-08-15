@@ -1,0 +1,128 @@
+---
+title: "5 亞健康改善成效 (Improvements in Health Status)"
+---
+
+<br> 
+**本次分析使用台北、新竹和高雄初日診所客戶的資料** <br> **納入條件：曾經參加過3次療程且每次療程間隔不超過2個月** <br> 
+**納入人數：339人** <br>
+
+# **5.1 肥胖程度 (BMI categories)**
+## **5.1.1 整體治療成效 (Overall Efficacy)**
+共有237名客戶接受三次療程且具有完整的BMI數據。 <br> 
+
+下圖呈現在接受每次療程後，不同肥胖程度的人數佔比變化。<br>
+- 整體來看，隨著療程的推進，減重成效越明顯。<br>
+- **BMI正常**的人數比例，由**6.3%增加至24.6%**。<br>
+- **BMI在肥胖範圍**的人數比例，由**81%減少至45%**。
+<br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_bmi.html" width="100%" style="max-width:650px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::
+
+## **5.1.2 不同起始肥胖程度的變化 (Changes in initial obesity levels)**
+下圖呈現在接受每次療程後，起始肥胖程度組別不同的人數佔比變化<br>
+- 過重的人經過3次療程，有約67%成功回到正常BMI範圍。<br>
+- 輕度肥胖的人經過3次療程，約有38%降到正常BMI，而只接受1次療程者則無人達成此目標。<br>
+- 中度及重度肥胖的人，每次療程同樣有效，約80%的重度肥胖患者成功降級至中度或輕度肥胖。<br>
+<br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_bmi_baseline_gp.html" width="100%" style="max-width:900px;" height="450px" scrolling="no" frameborder="0"></iframe>
+:::
+
+
+
+
+# **5.2 糖尿病 (Diabetes)**
+## **5.2.1 整體治療成效 (Overall Efficacy)**
+共有237名客戶接受三次療程且具有完整的血糖數據 <br>
+
+下圖呈現在接受每次療程後，糖尿病的人數佔比變化。<br>
+- 隨著每次療程的結束，糖尿病及糖尿病前期的人數比例明顯下降。<br>
+- 血糖**正常**的人數比例，由**約41%增加至約79%**。
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_DM.html" width="100%" style="max-width:650px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::
+
+## **5.2.2 不同起始狀態的變化 (Changes in initial status)**
+下圖呈現在接受每次療程後，起始血糖狀態不同的人數佔比變化<br>
+- **糖尿病人**經過3次療程，有**約32%**成功回到**正常血糖**範圍，**約43%**降到**糖尿病前期**範圍。<br>
+- **糖尿病前期**的人經過3次療程，有約**81%**回到**正常血糖**範圍。<br>
+<br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_DM_baseline_gp.html" width="100%" style="max-width:900px;" height="450px" scrolling="no" frameborder="0"></iframe>
+:::
+
+
+
+
+
+
+# **5.3 代謝症候群 (Metabolic Syndrome)**
+## **5.3.1 整體治療成效 (Overall Efficacy)**
+共有74名客戶接受三次療程且具有完整的代謝症候群相關數據<br>
+
+下圖呈現在接受每次療程後，代謝症候群的人數佔比變化。<br>
+- 隨著每次療程的結束，代謝症候群的人數比例明顯下降。<br>
+- **正常**的人數比例，由**約46%增加至約70%**。<br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_metax.html" width="100%" style="max-width:650px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::
+
+
+## **5.3.2 不同起始狀態的變化 (Changes in initial status)**
+這部分有點尷尬的是發現有normal的人變代謝症候群了。。。老闆可能覺得就不放？<br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_metax_baseline_gp.html" width="100%" style="max-width:900px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::
+
+
+
+
+
+
+
+# **5.4 高血壓 (Hypertension)**
+## **5.4.1 整體治療成效 (Overall Efficacy)**
+共有62名客戶接受三次療程且具有完整的血壓數據<br>
+
+下圖呈現在接受每次療程後，血壓狀態的人數佔比變化。<br>
+- 隨著每次療程的結束，高血壓的人數比例明顯下降。<br>
+- 血壓**正常**的人數比例，由**約27%增加至約63%**。
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_htn.html" width="100%" style="max-width:650px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::
+
+## **5.4.2 不同起始狀態的變化 (Changes in initial status)**
+整體來看大部分都還是有進步，但是以Normal和elevated的那組來看，有人是變嚴重的
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_htn_baseline_gp.html" width="100%" style="max-width:900px;" height="450px" scrolling="no" frameborder="0"></iframe>
+:::
+
+
+
+
+
+# **5.5 高血脂 (Hyperlipidemia)**
+## **5.5.1 整體治療成效 (Overall Efficacy)**
+共有236名客戶接受三次療程且具有完整的血脂數據<br>
+
+下圖呈現在接受每次療程後，血脂狀態的人數佔比變化。<br>
+整體來看，改善成效不大，但這部分好像也是宋醫師一直有提到我們低碳高蛋白的飲食介入就，蠻常會看到這樣的狀況
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_hlp.html" width="100%" style="max-width:650px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::
+
+## **5.5.2 不同起始狀態的變化 (Changes in initial status)**
+
+::: {style="display:flex; gap:10px; justify-content:space-around; align-items:center; max-width:2000px; margin:auto;"}
+<iframe src="p_hlp_baseline_gp.html" width="100%" style="max-width:900px;" height="300px" scrolling="no" frameborder="0"></iframe>
+:::

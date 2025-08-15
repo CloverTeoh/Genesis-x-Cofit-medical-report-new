@@ -1,0 +1,77 @@
+---
+title: "1.2-1 客戶輪廓分析（過重及肥胖）"
+
+---
+
+<br>
+**本次分析使用 2021年8月 至 2024年6月 診所客戶的資料** <br>
+**納入條件：同時具有 week 0 和 week 8 體重的人**  <br>
+**納入人數：1808人** <br>
+
+## **Subjects Distribution:** 年齡(Age) & 性別(Gender)分佈
+
+<br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; max-width:2000px; margin:auto;"}
+<iframe src="pie_wl_01.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+
+<iframe src="pie_wl_02.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+:::
+
+<br> <br>
+
+## **Subjects Distribution:** 身體質量指數(BMI)分佈 <br>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; max-width:2000px; margin:auto;"}
+<iframe src="pie_wl_03.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+
+<iframe src="pie_wl_04.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+:::
+
+:::{style="display:flex; gap:10px; justify-content:space-around; max-width:2000px; margin:auto;"}
+<iframe src="pie_wl_03_2.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+
+<iframe src="pie_wl_04_2.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+:::
+
+<br> <br>
+
+## **Subjects Distribution:** 肥胖相關慢性共病 <br>
+
+<iframe src="pie_wl_05_MetX.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+
+::: {style="display:flex; gap:10px; justify-content:space-around; max-width:2000px; margin:auto;"}
+<iframe src="pie_wl_05_DM.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+
+<iframe src="pie_wl_05_Ins.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+:::
+
+::: {style="display:flex; gap:10px; justify-content:space-around; max-width:2000px; margin:auto;"}
+<iframe src="pie_wl_05_HLP.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+
+<iframe src="pie_wl_05_HTN.html" width="100%" style="max-width:650px;" height="350px" scrolling="no" frameborder="0">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
